@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>Home|HumanBird</title>
+    <link rel="stylesheet" href="src/index.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'
+      rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="logo-details">
+        <i class='bx bxl-c-plus-plus icon'></i>
+        <div class="logo_name">HumanBird</div>
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <i class='bx bx-search'></i>
+          <input type="text" placeholder="Search...">
+          <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-home'></i>
+            <span class="links_name">Home</span>
+          </a>
+          <span class="tooltip">Home</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user'></i>
+            <span class="links_name">Login/Sign Up</span>
+          </a>
+          <span class="tooltip">Login/Sign Up</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-news'></i>
+            <span class="links_name">News</span>
+          </a>
+          <span class="tooltip">News</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-pen'></i>
+            <span class="links_name">Blogs</span>
+          </a>
+          <span class="tooltip">Blogs</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-contact'></i>
+            <span class="links_name">Contact Us</span>
+          </a>
+          <span class="tooltip">Contact Us</span>
+        </li>
+        <li class="profile">
+          <div class="profile-details">
+            <a href="#">
+              <img src="profile.jpg" alt="profileImg">
+            </a>
+            <div class="name_job">
+              <div class="name">Ronit Kumar Singh</div>
+              <div class="job">Web Developer</div>
+            </div>
+          </div>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </li>
+      </ul>
+    </nav>
+    <section class="home-section">
+      <div class="header">HumanBird</div>
+    </section>
+    <script src="src/index.js"></script>
+  </body>
+</html>
